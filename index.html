@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riddle Postcard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to compiled CSS (replace with style.css after compiling style.scss) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="riddle-box">
+    <h1>What is Lilja's favorite color?</h1>
+    <input type="text" id="answer" placeholder="yellow" autocomplete="off">
+    <button onclick="checkAnswer()">Submit</button>
+  </div>
+  <div class="postcard" id="postcard" style="display:none;">
+    <div class="card">
+      <div class="front">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80" alt="Postcard image">
+      </div>
+      <div class="back">
+        Greetings from the lands of the ocean!<br>
+        Jellyfish, otters, and whales are amongst me much more often that I once realized.
+        Sending you a hug! 
+        From, Lil
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
