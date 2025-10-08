@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardBack = document.querySelector(".card .back");
 
   if (cardFront && cardBack) {
-    // Ensure only front is visible at first
     cardFront.style.display = "block";
     cardBack.style.display = "none";
 
