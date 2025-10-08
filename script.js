@@ -16,6 +16,7 @@ function checkAnswer() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  const card = document.querySelector(".card");
   const cardFront = document.querySelector(".card .front");
   const cardBack = document.querySelector(".card .back");
 
@@ -26,11 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
     cardFront.addEventListener("click", function () {
       cardFront.style.display = "none";
       cardBack.style.display = "block";
+      card.classList.toggle("flipped", true);
     });
 
     cardBack.addEventListener("click", function () {
       cardBack.style.display = "none";
       cardFront.style.display = "block";
+      card.classList.toggle("flipped", false);
     });
   }
 });
