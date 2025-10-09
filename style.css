@@ -1,34 +1,11 @@
-body {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #fefae0;
-}
-
-.container {
-  text-align: center;
-}
-
-input {
-  padding: 8px;
-  margin-top: 10px;
-}
-
-button {
-  padding: 8px 16px;
-  margin-left: 8px;
-}
-
 .postcard {
   perspective: 1000px;
   margin-top: 30px;
 }
 
 .card {
-  width: 300px;
-  height: 200px;
+  width: 3in;    /* 3 inches wide */
+  height: 4in;   /* 4 inches tall */
   position: relative;
   transform-style: preserve-3d;
   transition: transform 5s;
