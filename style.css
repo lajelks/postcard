@@ -70,10 +70,9 @@ body {
   font-size: 1.08rem;
   color: #6c584c;
   box-sizing: border-box;
-}
-
-.back {
-  background-color: #fff8dc;
-  transform: rotateY(180deg);
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  overflow: auto;
 }
